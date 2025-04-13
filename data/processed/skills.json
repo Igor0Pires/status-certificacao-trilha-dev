@@ -1,0 +1,102 @@
+[
+    {
+        "track": "Data Engineer Associate Certification",
+        "skill": "Assess data quality and perform validation tasks"
+    },
+    {
+        "track": "Data Engineer Associate Certification",
+        "skill": "Perform cleaning tasks to prepare data for analysis"
+    },
+    {
+        "track": "Data Engineer Associate Certification",
+        "skill": "Read and analyze data visualizations to represent the relationships between features"
+    },
+    {
+        "track": "Data Engineer Associate Certification",
+        "skill": "Perform standard data extraction, joining and aggregation tasks"
+    },
+    {
+        "track": "Data Engineer Associate Certification",
+        "skill": "Perform standard cleaning tasks to prepare data for analysis"
+    },
+    {
+        "track": "Data Engineer Associate Certification",
+        "skill": "Interpret a database schema and explain database design concepts (such as normalization, design, schemas, data storage options)"
+    },
+    {
+        "track": "Data Engineer Associate Certification",
+        "skill": "Use data visualization tools to demonstrate characteristics of data"
+    },
+    {
+        "track": "Data Engineer Associate Certification",
+        "skill": "Calculate metrics to effectively report characteristics of data and relationships between features"
+    },
+    {
+        "track": "Data Engineer Associate Certification",
+        "skill": "Perform data extraction, joining and aggregation tasks"
+    },
+    {
+        "track": "Data Engineer Associate Certification",
+        "skill": "Identify different cloud tools that can be used for storing data and creating and maintaining data pipelines"
+    },
+    {
+        "track": "Data Scientist Associate Certification",
+        "skill": "Describe statistical concepts that underpin hypothesis testing and experimentation (i.e., statistical distributions, power analysis, parameter estimation and confidence intervals)"
+    },
+    {
+        "track": "Data Scientist Associate Certification",
+        "skill": "Assess data quality and perform validation tasks"
+    },
+    {
+        "track": "Data Scientist Associate Certification",
+        "skill": "Prepare data for modeling by implementing relevant transformations"
+    },
+    {
+        "track": "Data Scientist Associate Certification",
+        "skill": "Use suitable methods to assess the performance of a model"
+    },
+    {
+        "track": "Data Scientist Associate Certification",
+        "skill": "Create data visualizations in Python or R to demonstrate the characteristics of data"
+    },
+    {
+        "track": "Data Scientist Associate Certification",
+        "skill": "Perform standard cleaning tasks to prepare data for analysis"
+    },
+    {
+        "track": "Data Scientist Associate Certification",
+        "skill": "Perform standard data extraction, joining and aggregation tasks"
+    },
+    {
+        "track": "Data Scientist Associate Certification",
+        "skill": "Implement methods for performing statistical tests"
+    },
+    {
+        "track": "Data Scientist Associate Certification",
+        "skill": "Perform standard data import, joining, and aggregation tasks"
+    },
+    {
+        "track": "Data Scientist Associate Certification",
+        "skill": "Implement approaches for unsupervised learning problems"
+    },
+    {
+        "track": "Data Scientist Associate Certification",
+        "skill": "Use common programming constructs to write repeatable production quality code for analysis (i.e., functions, control flow, loops and iterations)"
+    },
+    {
+        "track": "Data Scientist Associate Certification",
+        "skill": "Apply sampling methods to data"
+    },
+    {
+        "track": "Data Scientist Associate Certification",
+        "skill": "Calculate metrics to effectively report characteristics of data and relationships between features"
+    },
+    {
+        "track": "Data Scientist Associate Certification",
+        "skill": "Implement standard modeling approaches for supervised learning problems"
+    },
+    {
+        "track": "Data Scientist Associate Certification",
+        "skill": "Create data visualizations in Python or R to represent the relationships between features"
+    }
+]

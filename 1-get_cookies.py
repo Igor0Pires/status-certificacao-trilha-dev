@@ -25,7 +25,7 @@ async def save_cookies_manually(): # definição da função assíncrona
 
         # Salva os cookies
         cookies = await context.cookies() # await serve para esperar a execução da função assíncrona terminar antes de continuar
-        with open("./data/cookies/datacamp_cookie.pkl", "wb") as f:
+        with open("./data/cookies/datacamp_cookies.pkl", "wb") as f:
             pickle.dump(cookies, f)
 
 asyncio.run(save_cookies_manually())

@@ -2,7 +2,7 @@ from cloudscraper import create_scraper # biblioteca para contornar proteção d
 from bs4 import BeautifulSoup
 from playwright.async_api import async_playwright # biblioteca para automação de navegadores
 
-import pandas as pd
+import json 
 import random
 import pickle # biblioteca para salvar e carregar objetos Python em arquivos
 import asyncio
@@ -118,10 +118,10 @@ async def access_with_cookies():
         
         # Carrega cookies
         try:
-            with open("./data/cookies/datacamp_cookie.pkl", "rb") as f:
+            with open("./data/cookies/datacamp_cookies.pkl", "rb") as f:
                 cookies = pickle.load(f)# carrega os cookies salvos no arquivo "datacamp_cookies.pkl"
         except:
-            print("❌ Erro: Primeiro execute ")
+            print("❌ Erro: Primeiro execute get_cookies.py para salvar os cookies.")
             return
         
         context = await browser.new_context(
@@ -142,12 +142,13 @@ async def access_with_cookies():
         results_skill = [item for sublist in results_skill for item in sublist] if results_skill else []
         results_courses = [item for sublist in results_courses for item in sublist] if results_courses else []
 
-        df_skills = pd.DataFrame(results_skill)
-        df_courses = pd.DataFrame(results_courses)
-
-        return df_skills, df_courses
+        # Cria json com os resultados
+        with open("./data/processed/skills.json", "w") as f:
+            json.dump(results_skill, f, indent=4)
+        print("✅ Habilidades extraídas com sucesso.")
+        with open("./data/processed/courses.json", "w") as f:
+            json.dump(results_courses, f, indent=4)
+        print("✅ Cursos extraídos com sucesso.")
 
 if __name__ == "__main__":
-    df_skills, df_courses = asyncio.run(access_with_cookies()) 
-    df_skills.to_csv("./data/processed/skills.csv", index=False, encoding="utf-8")
-    df_courses.to_csv("./data/processed/courses.csv", index=False, encoding="utf-8")
+    asyncio.run(access_with_cookies()) 

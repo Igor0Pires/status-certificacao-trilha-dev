@@ -1,0 +1,162 @@
+[
+    {
+        "track": "Associate Data Engineer in SQL",
+        "course": "Understanding Data Engineering",
+        "duration": "2 hours"
+    },
+    {
+        "track": "Associate Data Engineer in SQL",
+        "course": "Database Design",
+        "duration": "4 hours"
+    },
+    {
+        "track": "Associate Data Engineer in SQL",
+        "course": "Understanding Data Visualization",
+        "duration": "2 hours"
+    },
+    {
+        "track": "Associate Data Engineer in SQL",
+        "course": "Introduction to Relational Databases in SQL",
+        "duration": "4 hours"
+    },
+    {
+        "track": "Associate Data Engineer in SQL",
+        "course": "Data Warehousing Concepts",
+        "duration": "4 hours"
+    },
+    {
+        "track": "Associate Data Engineer in SQL",
+        "course": "Intermediate SQL",
+        "duration": "4 hours"
+    },
+    {
+        "track": "Associate Data Engineer in SQL",
+        "course": "Introduction to SQL",
+        "duration": "2 hours"
+    },
+    {
+        "track": "Associate Data Engineer in SQL",
+        "course": "Introduction to Snowflake SQL",
+        "duration": "3 hours"
+    },
+    {
+        "track": "Associate Data Engineer in SQL",
+        "course": "Joining Data in SQL",
+        "duration": "4 hours"
+    },
+    {
+        "track": "Associate Data Scientist  in Python",
+        "course": "Hypothesis Testing in Python",
+        "duration": "4 hours"
+    },
+    {
+        "track": "Associate Data Scientist  in Python",
+        "course": "Introduction to Statistics in Python",
+        "duration": "4 hours"
+    },
+    {
+        "track": "Associate Data Scientist  in Python",
+        "course": "Cleaning Data in Python",
+        "duration": "4 hours"
+    },
+    {
+        "track": "Associate Data Scientist  in Python",
+        "course": "Unsupervised Learning in Python",
+        "duration": "4 hours"
+    },
+    {
+        "track": "Associate Data Scientist  in Python",
+        "course": "Introduction to Regression with statsmodels in Python",
+        "duration": "4 hours"
+    },
+    {
+        "track": "Associate Data Scientist  in Python",
+        "course": "Python Toolbox",
+        "duration": "4 hours"
+    },
+    {
+        "track": "Associate Data Scientist  in Python",
+        "course": "Working with Dates and Times in Python",
+        "duration": "4 hours"
+    },
+    {
+        "track": "Associate Data Scientist  in Python",
+        "course": "Introduction to Data Visualization with Matplotlib",
+        "duration": "4 hours"
+    },
+    {
+        "track": "Associate Data Scientist  in Python",
+        "course": "Introduction to Data Visualization with Seaborn",
+        "duration": "4 hours"
+    },
+    {
+        "track": "Associate Data Scientist  in Python",
+        "course": "Sampling in Python",
+        "duration": "4 hours"
+    },
+    {
+        "track": "Associate Data Scientist  in Python",
+        "course": "Supervised Learning with scikit-learn",
+        "duration": "4 hours"
+    },
+    {
+        "track": "Associate Data Scientist  in Python",
+        "course": "Writing Functions in Python",
+        "duration": "4 hours"
+    },
+    {
+        "track": "Associate Data Scientist  in Python",
+        "course": "Working with Categorical Data in Python",
+        "duration": "4 hours"
+    },
+    {
+        "track": "Associate Data Scientist  in Python",
+        "course": "Data Communication Concepts",
+        "duration": "3 hours"
+    },
+    {
+        "track": "Associate Data Scientist  in Python",
+        "course": "Intermediate Python",
+        "duration": "4 hours"
+    },
+    {
+        "track": "Associate Data Scientist  in Python",
+        "course": "Exploratory Data Analysis in Python",
+        "duration": "4 hours"
+    },
+    {
+        "track": "Associate Data Scientist  in Python",
+        "course": "Introduction to Python",
+        "duration": "4 hours"
+    },
+    {
+        "track": "Associate Data Scientist  in Python",
+        "course": "Introduction to Importing Data in Python",
+        "duration": "3 hours"
+    },
+    {
+        "track": "Associate Data Scientist  in Python",
+        "course": "Machine Learning with Tree-Based Models in Python",
+        "duration": "5 hours"
+    },
+    {
+        "track": "Associate Data Scientist  in Python",
+        "course": "Experimental Design in Python",
+        "duration": "4 hours"
+    },
+    {
+        "track": "Associate Data Scientist  in Python",
+        "course": "Joining Data with pandas",
+        "duration": "4 hours"
+    },
+    {
+        "track": "Associate Data Scientist  in Python",
+        "course": "Data Manipulation with pandas",
+        "duration": "4 hours"
+    },
+    {
+        "track": "Associate Data Scientist  in Python",
+        "course": "Introduction to Functions in Python",
+        "duration": "3 hours"
+    }
+]
