@@ -3,7 +3,7 @@
 
 Este repositório contém scripts e ferramentas para automação, extração de dados e configuração de um banco de dados relacionados a trilhas de aprendizado e cursos da plataforma DataCamp. 
 
-[🔗 Link para o app do Streamlit](#)
+[🔗 Link para o app do Streamlit](#https://datacamp-dev.streamlit.app/)
 
 ---
 
