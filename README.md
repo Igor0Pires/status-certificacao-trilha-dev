@@ -22,16 +22,7 @@ cd status-certificacao-trilha-dev
     `https://github.com/Igor0Pires/status-certificacao-trilha-dev`
 
 5. Escolha um diretório local e clique em **Clone**.
-
-
-### **Comandos Úteis (Git)** 🧰
-
-| **Comando**                  | **Descrição**                                |
-|------------------------------|----------------------------------------------|
-| `git pull`                   | Atualiza o repositório local                |
-| `git checkout -b nova-branch`| Cria e muda para uma nova branch            |
-| `git commit -m "mensagem"`   | Salva alterações com uma mensagem           |
-| `git push origin main`       | Envia alterações para o GitHub              |
+6. Abra no VScode e edite localmente.
 
 ---
 
@@ -178,3 +169,14 @@ Cria uma aplicação com Streamlit e utiliza a Google Gemini API para gerar feed
 ### Observações: ⚠️
 - Certifique-se de configurar corretamente o arquivo `.env` com a variável `API_KEY` para acessar a API do Google Gemini.
 - O banco de dados `datacamp.db` deve estar na mesma pasta do aplicativo para que as consultas SQLite funcionem corretamente.
+
+---
+
+### **Comandos Úteis (Git)** 🧰
+
+| **Comando**                  | **Descrição**                                |
+|------------------------------|----------------------------------------------|
+| `git pull`                   | Atualiza o repositório local                |
+| `git checkout -b nova-branch`| Cria e muda para uma nova branch            |
+| `git commit -m "mensagem"`   | Salva alterações com uma mensagem           |
+| `git push origin main`       | Envia alterações para o GitHub              |
