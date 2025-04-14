@@ -9,7 +9,8 @@ from datetime import date # biblioteca para trabalhar com datas
 
 load_dotenv() # carrega as variáveis de ambiente do arquivo .env
 
-API_KEY = os.getenv("API_KEY") # carrega a chave da API do Google Gemini
+# API_KEY = os.getenv("API_KEY") --> carrega a chave da API do Google Gemini, mas no no meu caso vou usar o st.secrets (para postagem)
+API_KEY = st.secrets["api_key"] # carrega a chave da API do Google Gemini do Streamlit Secrets
 
 client = genai.Client(api_key=API_KEY) # cria um cliente para acessar a API do Google Gemini
 
