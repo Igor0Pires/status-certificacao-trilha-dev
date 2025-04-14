@@ -3,7 +3,7 @@
 
 Este repositório contém scripts e ferramentas para automação, extração de dados e configuração de um banco de dados relacionados a trilhas de aprendizado e cursos da plataforma DataCamp. 
 
-[🔗 Link para o app do Streamlit](#https://datacamp-dev.streamlit.app/)
+[🔗 Link para o app do Streamlit](https://datacamp-dev.streamlit.app/)
 
 ---
 
@@ -23,7 +23,17 @@ cd status-certificacao-trilha-dev
 
 5. Escolha um diretório local e clique em **Clone**.
 
---- 
+
+### **Comandos Úteis (Git)** 🧰
+
+| **Comando**                  | **Descrição**                                |
+|------------------------------|----------------------------------------------|
+| `git pull`                   | Atualiza o repositório local                |
+| `git checkout -b nova-branch`| Cria e muda para uma nova branch            |
+| `git commit -m "mensagem"`   | Salva alterações com uma mensagem           |
+| `git push origin main`       | Envia alterações para o GitHub              |
+
+---
 
 # Sobre o projeto 🚀
 
@@ -42,17 +52,6 @@ Permite que o usuário faça login manualmente em um site (neste caso, o DataCam
     ```
 3. Siga as instruções para realizar o login manualmente no navegador que será aberto.
 4. Após o login, os cookies serão salvos em um arquivo.
-
-### **Comandos Úteis (Git)** 🧰
-
-| **Comando**                  | **Descrição**                                |
-|------------------------------|----------------------------------------------|
-| `git pull`                   | Atualiza o repositório local                |
-| `git checkout -b nova-branch`| Cria e muda para uma nova branch            |
-| `git commit -m "mensagem"`   | Salva alterações com uma mensagem           |
-| `git push origin main`       | Envia alterações para o GitHub              |
-
----
 
 ### Bibliotecas: 📚
 - `playwright.async_api`: Biblioteca para automação de navegadores.
