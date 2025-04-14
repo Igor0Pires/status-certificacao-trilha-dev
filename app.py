@@ -2,12 +2,12 @@ import streamlit as st # bibilioteca para criar aplicações web
 import pandas as pd 
 import sqlite3
 from google import genai # biblioteca para acessar a API do Google Gemini
-from dotenv import load_dotenv # biblioteca para carregar variáveis de ambiente de um arquivo .env
+# from dotenv import load_dotenv # biblioteca para carregar variáveis de ambiente de um arquivo .env
 from time import sleep
 import os
 from datetime import date # biblioteca para trabalhar com datas
 
-load_dotenv() # carrega as variáveis de ambiente do arquivo .env
+# load_dotenv() # carrega as variáveis de ambiente do arquivo .env
 
 # API_KEY = os.getenv("API_KEY") --> carrega a chave da API do Google Gemini, mas no no meu caso vou usar o st.secrets (para postagem)
 API_KEY = st.secrets["api_key"] # carrega a chave da API do Google Gemini do Streamlit Secrets
